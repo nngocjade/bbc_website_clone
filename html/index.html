@@ -6,12 +6,79 @@
     <title>Technology - BBC news</title>
   </head>
   <body>
-    <header>
-      <nav id="header-nav-bar" class="nav-bar"></nav>
+    <header id="orb-banner">
+     <div class="orb-header">
+        <div class="orb-nav-pr--container">
+          <div class="orb-nav-section orb-nav-blocks">
+           <a href="http://www.bbc.com" Homepage></a>
+          </div>
+          <section>
+           <div class="orb-skip-links">
+            <!-- ACCESSIBLITY SKIP LINKS GOES HERE -->
+           </div>
+          </section>
+          <div id="mybbc-wrapper" class="orb-nav-section orb-nav-id orb-nav-focus">
+           <!-- ACCESSIBILITY GOES HERE -->
+          </div>
+          <nav role="navigation" class="orb-nav">
+           <div class="orb-nav-section orb-nav-links orb-nav-focus" id="orb-nav-links">
+            <h2>BBC navigation</h2>
+            <ul>
+             <li class="orb-nav-sport"></li>
+             <li class="orb-nav-weather"></li>
+             <li class="orb-nav-tv"></li>
+             <li class="orb-nav-radio"></li>
+             <li class="orb-nav-cbbc"></li>
+             <li class="orb-nav-cbeebies orb-nav-hide"></li>
+             <li class="orb-nav-food orb-nav-hide"></li>
+             <li class="orb-nav-hide"></li>
+             <li class="orb-nav-hide"></li>
+             <li class="orb-nav-music orb-nav-hide"></li>
+             <li class="orb-nav-arts orb-nav-hide"></li>
+             <li class="orb-nav-makeitdigital orb-nav-hide"></li>
+             <li class="orb-nav-hide"></li>
+             <li class="orb-nav-local orb-nav-hide"></li>
+             <li class="orb-nav-more"></li>
+            </ul>
+           </div>
+          </nav>
+          <div class="orb-nav-section orb-nav-search">
+           <a class="orb-search_button" href="http://search.bbc.co.uk/search" title="Search the BBC">Search</a>
+           <form class="b-f" id="orb-search-form" role="search" method="get" action="http://search.bbc.co.uk/search" accept-charset="utf-8">
+            <div>
+             <label for="orb-search-q">Search the BBC</label>
+             <input id="orb-search-q" type="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" maxlength="100" name="q" placeholder="Search">
+             <button id="orb-search-button" class="orb-search_button">Search the BBC</button>
+             <input type="hidden" name="suggid" id="orb-search-suggid">
+            </div>
+           </form>          
+          </div>
+          <!-- DROPDOWN SLIDEOUT PANEL "MORE" -->
+          <div id="orb-panels">
+
+          </div>
+         </div>
+        </div>
+     </div>
     </header>
     <div class="site-brand site-brand--height">
       <div class="site-brand-inner site-brand-inner--height">
-        <div class="site-brand-inner-nav site-brand-inner--nav"></div>
+        <div class="navigation navigation--primary">
+         <a href="http://www.bbc.co.uk/news" id="brand">
+            <svg class="brand__svg" aria-label="BBC News">
+             <title>BBC News</title>
+             <image xlink:href="http://static.bbci.co.uk/news/1.106.0498/img/brand/generated/news-light.svg"
+              src="http://static.bbci.co.uk/news/1.106.0498/img/brand/generated/news-light.png" width="100%" height="100%"></image>
+            </svg>
+         </a>
+          <h2 class="navigation_heading off-screen">News navigation</h2>
+          <a href="http://www.bbc.co.uk/news/technology#core-navigation" class="navigation__section navigation__section--core"
+           data-event="header">
+           Sections </a>
+         <div class="find-local-wide" id="find-local-wide">
+          <button class="find-local-wide__link">Find local news</button>
+         </div>
+        </div>
       </div>
     </div>
   </body>
